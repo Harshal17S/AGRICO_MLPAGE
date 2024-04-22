@@ -15,7 +15,7 @@ class FarmProductPrediction extends React.Component {
           <button className="button" onClick={() => this.handleButtonClick('https://www.google.com')}>
             Base Price Sensor
           </button>
-          <button className="button" onClick={() => this.handleButtonClick('#')}>
+          <button className="button" onClick={() => this.handleButtonClick('http://localhost:3000/')}>
             Next Day
           </button>
           <button className="button" onClick={() => this.handleButtonClick('#')}>
