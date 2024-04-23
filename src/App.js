@@ -12,7 +12,7 @@ class FarmProductPrediction extends React.Component {
       <div className="container">
         <h1 className="title">Services</h1>
         <div className="button-container">
-          <button className="button" onClick={() => this.handleButtonClick('http://localhost:3001/')}>
+          <button className="button" onClick={() => this.handleButtonClick('https://baseprice-2.onrender.com/')}>
             Base Price Sensor
           </button>
           <button className="button" onClick={() => this.handleButtonClick('http://localhost:3002/')}>
