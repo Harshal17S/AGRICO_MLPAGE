@@ -10,7 +10,7 @@ class FarmProductPrediction extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1 className="title">Farm Product Prediction</h1>
+        <h1 className="title">Services</h1>
         <div className="button-container">
           <button className="button" onClick={() => this.handleButtonClick('http://localhost:3001/')}>
             Base Price Sensor
