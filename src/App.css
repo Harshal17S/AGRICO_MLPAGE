@@ -4,12 +4,13 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+ 
 }
 
 .title {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: #333;
+  color:white;
 }
 
 .button-container {
@@ -38,4 +39,16 @@
 
 .button:active {
   background-color: #3e8e41;
+}
+body {
+  /* Add your background image URL here */
+  background-image: url('/src/farm.jpg');
+  /* Set background size to cover the entire viewport */
+  background-size: cover;
+  /* Center the background image */
+  background-position: center;
+  /* Apply a fixed background */
+  /* background-attachment: fixed; */
+  /* Optional: Add additional styling */
+  /* Add more styling as needed */
 }
